@@ -23,7 +23,7 @@ list_of_files=[
     "Dockerfile",
     "requirements.txt",
     "setup.py"
-]
+] 
 
 
 for filepath in list_of_files:
@@ -41,3 +41,5 @@ for filepath in list_of_files:
 
     else:
         logging.info(f"{filename} is already exists")
+
+        
